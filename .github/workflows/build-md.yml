@@ -9,6 +9,6 @@ jobs:
       - uses: docker://pandoc/core:3.5
         with:
           args: >-
-	    --standalone
-	    --output=main.md
-	    main.tex
+            --standalone
+            --output=main.md
+            main.tex
